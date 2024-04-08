@@ -2,35 +2,102 @@ import { defineConfig } from 'vitepress';
 
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
-  lang: 'en-US',
-  title: 'Wcowin的自留地',
+  lang: 'zh-Hans',
+  title: 'Wcowin',
   description: 'Vite & Vue powered static site generator.',
   base: '/VitePress/',
   themeConfig: {
+    logo: '/img/logo.jpeg',
+    search: {
+      provider: 'local'
+    },
+    editLink: {
+      pattern: 'https://github.com/Wcowin/VitePress/edit/main/docs/:path'
+      
+    },
     nav: [
-      { text: 'Example', link: '/example' },
+      { text: "主页", link: "/" },
+      { text: 'Blog', link: '/example' },
+      {
+        text: '关于',
+        items: [
+          { text: '关于我', link: '/About' },
+          { text: '友链', link: '/Link' },
+        ],
+      },
 
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
 
-      // ...
     ],
 
     sidebar: [
       {
-        // text: 'Guide',
+        text: 'Guide',
         items: [
           { text: 'Example', link: '/example' },
-          // ...
+          { text: "博客文档测试", link: "/test"},
+        ],
+      },
+      {
+        text: 'About',
+        items: [
+          { text: '关于我', link: '/About' },
+          { text: '友链', link: '/Link' },
         ],
       },
     ],
+    socialLinks: [
+      {
+        icon: "github",
+        link: "https://github.com/Wcowin/VitePress",
+      },
+      { icon: "twitter", link: "https://twitter.com/wcowin_" },
+    ],
+    footer: {
+      copyright: "Copyright © 2023-2024 Wcowin.",
+      message:
+          'Released under the GPL License.',
+    },
+
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
+
+    darkModeSwitchLabel: "外观",
+    darkModeSwitchTitle: "切换到深色模式",
+    lightModeSwitchTitle: "切换到浅色模式",
+    sidebarMenuLabel: "目录",
+    returnToTopLabel: "返回顶部",
+    externalLinkIcon: true,
   },
+  markdown: {
+    lineNumbers: true,
+    theme: {
+      light: "material-theme-lighter",
+      dark: "material-theme-darker",
+    },
+    image: {
+      // 默认禁用图片懒加载
+      lazyLoading: true
+    },
+    math: true
+  },
+  lastUpdated: true,
+  cleanUrls: true,
+  sitemap: {
+    hostname: 'https://wcowin.work/VitePress/'
+  },
+  // locales: {
+  //   root: {
+  //     label: '简体中文',
+  //     lang: 'zh-CN'
+  //   },
+  //   en_US: {
+  //     label: 'English',
+  //     lang: 'en-US',
+  //   },
+  // },  
+
+  
 }
 );

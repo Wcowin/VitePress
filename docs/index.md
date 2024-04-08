@@ -11,20 +11,30 @@ hero:
     alt: Forfun
   actions:
     - theme: brand
-      text: 关于我
-      link: /markdown-examples
+      text: Github
+      link: https://github.com/Wcowin
     - theme: alt
       text: 联系我
-      link: /api-examples
+      link: mailto:<wangkewen821@gmail.com>
 
 
 features:
   - title: 我的个人网站
     details: https://wcowin.work/
     link: https://wcowin.work/
+    icon: 🙌
   - title: Mkdocs-Wcowin中文主题
     details: https://wcowin.work/Mkdocs-Wcowin/
     link: https://wcowin.work/Mkdocs-Wcowin/
+    icon: 🚀
+  # - title: 简单
+  #   details: 手执烟火以谋生，心怀诗意以谋爱
+  #   icon: 🎱
+  # - icon: 😃
+  #   title: 易用
+  #   details: 功能丰富，兼容性强
   # - title: Feature C
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+
