@@ -5,7 +5,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'VitePress',
   description: 'Vite & Vue powered static site generator.',
-
+  base: '/VitePress/',
   themeConfig: {
     nav: [
       { text: 'Example', link: '/example' },
