@@ -17,12 +17,11 @@ export default defineConfig({
     },
     nav: [
       { text: "主页", link: "/" },
-      { text: 'Blog', link: '/example' },
+      
       {
         text: '关于',
         items: [
           { text: '关于我', link: '/About' },
-          { text: '友链', link: '/Link' },
         ],
       },
 
@@ -34,14 +33,12 @@ export default defineConfig({
         text: 'Guide',
         items: [
           { text: 'Example', link: '/example' },
-          { text: "博客文档测试", link: "/test"},
         ],
       },
       {
         text: 'About',
         items: [
           { text: '关于我', link: '/About' },
-          { text: '友链', link: '/Link' },
         ],
       },
     ],
