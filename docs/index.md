@@ -7,7 +7,7 @@ hero:
   text: "A college student"
   tagline: Free and diffuse
   image:
-    src: https://s1.imagehub.cc/images/2024/02/02/79cb7379982d1c7bb0ae7163985609c4.jpeg
+    src: https://s2.loli.net/2024/04/09/deFbaXu1DiBOzyA.png
     alt: Forfun
   actions:
     - theme: brand
