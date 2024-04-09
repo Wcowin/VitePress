@@ -7,7 +7,7 @@ export default defineConfig({
   description: 'Vite & Vue powered static site generator.',
   base: '/VitePress/',
   themeConfig: {
-    logo: '/img/logo.jpeg',
+    logo: 'https://s1.imagehub.cc/images/2024/02/02/91a767e93d1a344e44c69936464c583e.png',
     search: {
       provider: 'local'
     },
