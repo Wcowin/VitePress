@@ -17,6 +17,7 @@ import MyLayout from "./components/MyLayout.vue" //视图过渡
 
 import Confetti from "./components/Confetti.vue";// 五彩纸屑
 
+
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
