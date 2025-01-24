@@ -17,6 +17,7 @@ import MyLayout from "./components/MyLayout.vue" //视图过渡
 
 import Confetti from "./components/Confetti.vue";// 五彩纸屑
 
+import HomeUnderline from "./components/HomeUnderline.vue"
 
 // import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
@@ -53,6 +54,7 @@ export default {
       }
     }
     app.component("Confetti", Confetti); //注册全局组件
+    app.component('HomeUnderline' , HomeUnderline)
   },
 
   setup() {

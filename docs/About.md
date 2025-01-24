@@ -3,7 +3,7 @@
 
 <center>
 <p style="margin: 0px;" markdown>
-  <img src="https://pic2.zhimg.com/v2-ef969571db8a20c8436235c588d04483_1440w.jpg" alt="arv-anshul" style="width: 300px; border-radius: 50%;" />
+  <img src="https://pic4.zhimg.com/80/v2-a0456a5f527c1923f096759f2926012f_1440w.webp" alt="arv-anshul" style="width: 300px; border-radius: 50%;" />
 </p>
 </center> 
 

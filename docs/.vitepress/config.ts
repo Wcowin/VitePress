@@ -22,6 +22,7 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '关于我', link: '/About' },
+          { text: '个人简历', link: '/jianli' },
         ],
       },
 
