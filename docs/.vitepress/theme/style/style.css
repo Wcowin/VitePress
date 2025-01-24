@@ -90,7 +90,9 @@
  * Component: Home
  * -------------------------------------------------------------------------- */
 
-:root {
+
+
+/* :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
@@ -104,7 +106,28 @@
     #faf7f0 50%
   );
   --vp-home-hero-image-filter: blur(44px);
+} */
+
+
+:root {
+  /* hero标题渐变色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #a1ccce,
+    #f5ead0
+  );
+
+  /*hero logo背景渐变色 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #a1ccce 50%,
+    #faf7f0 50%
+  );
+  --vp-home-hero-image-filter: blur(40px);
 }
+
+
 
 @media (min-width: 640px) {
   :root {

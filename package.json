@@ -7,7 +7,13 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "@types/dom-view-transitions": "^1.0.5",
+    "busuanzi.pure.js": "^1.0.3",
+    "canvas-confetti": "^1.9.3",
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "latest"
+    "medium-zoom": "^1.1.0",
+    "nprogress-v2": "^1.0.4",
+    "vitepress": "latest",
+    "vitepress-sidebar": "^1.30.2"
   }
 }

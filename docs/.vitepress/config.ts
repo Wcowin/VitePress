@@ -1,13 +1,13 @@
 import { defineConfig } from 'vitepress';
-
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
   lang: 'zh-Hans',
   title: 'Wcowin',
   description: 'Vite & Vue powered static site generator.',
   base: '/VitePress/',
+  // srcDir: "docs",//等下需要新建一个目录，统一放这里
   themeConfig: {
-    logo: 'https://s1.imagehub.cc/images/2024/02/02/91a767e93d1a344e44c69936464c583e.png',
+    logo: 'https://pic4.zhimg.com/80/v2-a0456a5f527c1923f096759f2926012f_1440w.webp',
     search: {
       provider: 'local'
     },
@@ -30,15 +30,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Guide',
-        items: [
-          { text: 'Example', link: '/example' },
-        ],
-      },
-      {
         text: 'About',
         items: [
           { text: '关于我', link: '/About' },
+          { text: '个人简历', link: '/jianli' },
         ],
       },
     ],
@@ -50,9 +45,9 @@ export default defineConfig({
       { icon: "twitter", link: "https://twitter.com/wcowin_" },
     ],
     footer: {
-      copyright: "Copyright © 2023-2024 Wcowin.",
+      copyright: "Copyright © 2023-2025 Wcowin.",
       message:
-          'Released under the GPL License.',
+          '“循此苦旅，以达星辰”.',
     },
 
     docFooter: {

@@ -7,8 +7,8 @@ hero:
   text: "A college student"
   tagline: Free and diffuse
   image:
-    src: https://s2.loli.net/2024/04/09/deFbaXu1DiBOzyA.png
-    alt: Forfun
+    src: https://pica.zhimg.com/80/v2-1a0af4c184a27a3af3cea7009b0124d2_1440w.jpg
+    alt: Free and diffuse
   actions:
     - theme: brand
       text: Github
@@ -22,11 +22,11 @@ features:
   - title: 我的个人网站
     details: https://wcowin.work/
     link: https://wcowin.work/
-    icon: 🙌
+    icon: ⭐️
   - title: Mkdocs-Wcowin中文主题
     details: https://wcowin.work/Mkdocs-Wcowin/
     link: https://wcowin.work/Mkdocs-Wcowin/
-    icon: 🚀
+    icon: ❤️
   # - title: 简单
   #   details: 手执烟火以谋生，心怀诗意以谋爱
   #   icon: 🎱
@@ -37,4 +37,10 @@ features:
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<DataPanel />
 
+
+
+<Confetti />
+
+<busuanzi />

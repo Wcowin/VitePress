@@ -1,4 +1,4 @@
-<!-- .vitepress/theme/Layout.vue -->
+<!-- .vitepress/theme/MyLayout.vue -->
 
 <script setup lang="ts">
 import { useData } from 'vitepress'
@@ -42,7 +42,9 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-  <DefaultTheme.Layout />
+  <DefaultTheme.Layout>
+    <!-- 这里可以插入其他插槽组件 -->
+  </DefaultTheme.Layout>
 </template>
 
 <style>

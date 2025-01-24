@@ -1,0 +1,44 @@
+rcorners1 {
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(189, 224, 245), rgba(218, 232, 241), rgba(238, 237, 238));
+    /* #F0EFEB; F5F4F1*/
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+
+img.img1 {
+    border-radius: 25px;
+}
+
+/* 提示框背景颜色 */
+:root {
+    --vp-custom-block-tip-bg: var(--vp-c-green-soft);
+}
+
+  /* 提示框 */
+.custom-block.tip {
+    border-color: var(--vp-c-green-2);
+}
+
+  /* 警告框 */
+.custom-block.warning {
+    /* border-color: #d97706; */
+    border-color: var(--vp-c-yellow-2);
+}
+
+  /* 危险框 */
+.custom-block.danger {
+    /* border-color: #f43f5e; */
+    border-color: var(--vp-c-red-2);
+}
+
+
+.medium-zoom-overlay {
+    z-index: 30;
+}
+.medium-zoom-image {
+    z-index: 9999 !important; /* 给的值是21，但是实测盖不住，直接999 */
+}
