@@ -18,7 +18,7 @@ import MyLayout from "./components/MyLayout.vue" //视图过渡
 import Confetti from "./components/Confetti.vue";// 五彩纸屑
 
 
-import mediumZoom from 'medium-zoom';
+// import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
 
@@ -57,17 +57,17 @@ export default {
 
   setup() {
     const route = useRoute();
-    const initZoom = () => {
-      // mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); // 默认
-      mediumZoom(".main img", { background: "var(--vp-c-bg)" }); // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
-    };
-    onMounted(() => {
-      initZoom(); 
-    }); 
-    watch(  
-      () => route.path,
-      () => nextTick(() => initZoom())
-    );
+    // const initZoom = () => {
+    //   // mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); // 默认
+    //   mediumZoom(".main img", { background: "var(--vp-c-bg)" }); // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
+    // };
+    // onMounted(() => {
+    //   initZoom(); 
+    // }); 
+    // watch(  
+    //   () => route.path,
+    //   () => nextTick(() => initZoom())
+    // );
   },
 
 }

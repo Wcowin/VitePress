@@ -5,12 +5,12 @@
     <div class="container">
       <section class="grid">
         <span class="text">
-          本站总访问量
+          总访问量
           <span id="busuanzi_value_site_pv" class="font-bold">--</span> 次
         </span>
         <img src="https://s2.loli.net/2025/01/12/VtHyRNUr8a26GdE.jpg" width="100" height="100" style="border-radius: 15px;" />
         <span class="text">
-          本站访客数
+          访客数
           <span id="busuanzi_value_site_uv" class="font-bold">--</span> 人次
         </span>
       </section>
