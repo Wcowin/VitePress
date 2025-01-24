@@ -31,7 +31,7 @@
 
 ## 个人简历
 
-[个人简历](./个人简历.pdf){target="_blank"}
+[个人简历](https://wcowin.work/about/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf){target="_blank"}
 
 
 ## 须知

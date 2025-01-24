@@ -3,20 +3,24 @@ sidebar: true
 outline: false
 ---
 
+::: info 个人简历
+[个人简历](https://wcowin.work/about/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
+:::
 
-<iframe src="./个人简历.pdf" width="135%" height="800px" style="border: 1px solid #ccc; overflow: auto;">
-    This browser does not support PDFs. Please download the PDF to view it: 
-<a href="个人简历.pdf">Download PDF</a>.
-</iframe>
+<iframe
+    src="https://wcowin.work/about/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf"
+    frameBorder="0"
+    scrolling="auto"
+    height="880px"
+    width="130%"
+></iframe>
+
 
 <style>
 @media (max-width: 767px) {
   iframe {
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
   }
 }
 </style>
-
-
-

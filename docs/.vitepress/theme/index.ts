@@ -4,6 +4,7 @@ import Theme from 'vitepress/theme'
 import './style/style.css'
 import './style/custom.css'
 import './style/rainbow.css'
+
 // import Layout from "./Layout.vue" 
 import Authors from "./components/Author.vue"
 
@@ -29,6 +30,10 @@ import 'nprogress-v2/dist/index.css' // 进度条样式
 export default {
   extends: Theme,
   Layout: MyLayout,
+  optimizeDeps: {
+    include: ['pdf'], // 将pdf文件添加到include数组中
+    exclude: [], // 排除其他不需要优化的文件类型
+  },
   // Layout: () => {
   //   return h(Theme.Layout, null, {
   //     // https://vitepress.dev/guide/extending-default-theme#layout-slots

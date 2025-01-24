@@ -16,5 +16,8 @@
     "vitepress": "latest",
     "vitepress-sidebar": "^1.30.2",
     "vue": "^3.5.13"
+  },
+  "dependencies": {
+    "vue-pdf-embed": "^2.1.2"
   }
 }
